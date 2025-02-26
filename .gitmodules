@@ -1,3 +1,6 @@
 [submodule "godot"]
 	path = godot
 	url = https://github.com/godotengine/godot
+[submodule "plugins/arvideokit/ARVideoKit"]
+	path = plugins/arvideokit/ARVideoKit
+	url = https://github.com/AFathi/ARVideoKit

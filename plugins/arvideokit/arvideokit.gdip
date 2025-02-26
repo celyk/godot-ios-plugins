@@ -1,0 +1,18 @@
+[config]
+name="ARVideoKit"
+binary="arvideokit.xcframework"
+
+initialization="register_arkit_types"
+deinitialization="unregister_arkit_types"
+
+[dependencies]
+linked=[]
+embedded=["ARVideoKit.framework"]
+system=["AVFoundation.framework", "ARKit.framework"]
+
+capabilities=["arkit"]
+
+files=[]
+
+[plist]
+NSCameraUsageDescription="Device camera is used for some functionality"
